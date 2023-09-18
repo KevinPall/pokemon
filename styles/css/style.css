@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'pokemon'; /* Nom que vous donnerez à la police */
+    src: url('/Pokemon/fonts/Pokemon\ Hollow.ttf') format('truetype'); /* Chemin vers la police sur votre serveur */
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    background-image: url(pokemon.jpg);
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir le body */
+    font-family: 'pokemon', sans-serif; /* Utilisez le nom de la police définie */
+
+}
+
+button {
+    visibility: hidden;
+}
+
+main {
+    border: 2px solid rgb(131, 124, 124,0.2);
+    width: 80%; 
+    max-width: 800px; 
+    color: white;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.01); 
+    backdrop-filter: blur(10px); /* Applique un flou au fond */
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    
+}
+
+main img{
+    width: 50%;
+    height: 50%;
+    visibility: hidden;
+}
+
+
+
+/* Styles pour afficher le bouton au clic sur le Pokémon */
+button {
+    visibility: hidden;
+}
+
+#retour {
+    color: white;
+}
+
+
